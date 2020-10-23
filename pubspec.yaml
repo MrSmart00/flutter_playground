@@ -1,0 +1,29 @@
+name: flutter_playground
+description: A new Flutter application.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.0
+  intl:
+  chopper:
+  json_serializable:
+  freezed_annotation:
+  flutter_hooks:
+  hooks_riverpod:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner:
+  chopper_generator:
+  json_serializable:
+  freezed:
+
+flutter:
+  uses-material-design: true
